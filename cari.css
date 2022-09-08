@@ -1,0 +1,81 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.nav-header{
+    -webkit-box-shadow: 0px 5px 20px -17px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 0px 5px 20px -17px rgba(0, 0, 0, 0.34);
+    box-shadow: 0px 5px 20px -17px rgba(0, 0, 0, 0.34);
+}
+
+.navbar .navbar-nav > .nav-item > .nav-link{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar .navbar-nav > .nav-item > .nav-link:hover {
+    color: #0095f8; 
+}
+
+.navbar .navbar-nav > .nav-item.active > a {
+    color: #0095f8; 
+}
+
+.judul{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* style form pencarian*/
+.input-nik{
+    width: 1000px;
+    height: 38px;
+    border: 1px solid #0095f8;
+    border-radius: 4px;
+}
+
+.btn-cari{
+    width: 100px;
+}
+
+/* responsive layout */
+@media (max-width: 600px) {
+    .input-nik{
+        width: 100%;
+    }
+    .btn-cari{
+        margin-top: 15px;
+        width: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .input-nik{
+        width: 100%;
+    }
+    .btn-cari{
+        margin-top: 15px;
+        width: 60px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .input-nik{
+        width: 100%;
+    }
+    .btn-cari{
+        margin-top: 15px;
+        width: 100px;
+    }
+}
